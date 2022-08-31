@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E86323F327FC22740039411C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E86323F227FC22740039411C /* FirebaseAuth */; };
+		E86323F527FC22740039411C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E86323F427FC22740039411C /* FirebaseFirestore */; };
+		E86323F827FC22C70039411C /* FirebaseAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = E86323F727FC22C70039411C /* FirebaseAuthUI */; };
+		E86323FA27FC22C70039411C /* FirebaseEmailAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = E86323F927FC22C70039411C /* FirebaseEmailAuthUI */; };
+		E86323FC27FC23520039411C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E86323FB27FC23520039411C /* GoogleService-Info.plist */; };
+		E89FD41327FC2BA6003BE247 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89FD41227FC2BA6003BE247 /* WebView.swift */; };
+		F73167BD27E0600800BF3A7A /* BareBonesBlogArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73167BC27E0600800BF3A7A /* BareBonesBlogArticle.swift */; };
+		F757398E27DEA80F00D35F63 /* BareBonesBlogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757398D27DEA80F00D35F63 /* BareBonesBlogApp.swift */; };
+		F757399027DEA80F00D35F63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757398F27DEA80F00D35F63 /* ContentView.swift */; };
+		F757399227DEA81000D35F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F757399127DEA81000D35F63 /* Assets.xcassets */; };
+		F757399527DEA81000D35F63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F757399427DEA81000D35F63 /* Preview Assets.xcassets */; };
+		F757399F27DEA81000D35F63 /* BareBonesBlogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757399E27DEA81000D35F63 /* BareBonesBlogTests.swift */; };
+		F75739A927DEA81100D35F63 /* BareBonesBlogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739A827DEA81100D35F63 /* BareBonesBlogUITests.swift */; };
+		F75739AB27DEA81100D35F63 /* BareBonesBlogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739AA27DEA81100D35F63 /* BareBonesBlogUITestsLaunchTests.swift */; };
+		F75739C127DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C027DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift */; };
+		F75739C227DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C027DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift */; };
+		F75739C327DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C027DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift */; };
+		F75739C527DEB64D00D35F63 /* BareBonesBlogAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C427DEB64D00D35F63 /* BareBonesBlogAuth.swift */; };
+		F75739C627DEB64D00D35F63 /* BareBonesBlogAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C427DEB64D00D35F63 /* BareBonesBlogAuth.swift */; };
+		F75739C727DEB64D00D35F63 /* BareBonesBlogAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C427DEB64D00D35F63 /* BareBonesBlogAuth.swift */; };
+		F75739D127DECAE800D35F63 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739D027DECAE800D35F63 /* AuthenticationViewController.swift */; };
+		F75739D227DECAE800D35F63 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739D027DECAE800D35F63 /* AuthenticationViewController.swift */; };
+		F75739D327DECAE800D35F63 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739D027DECAE800D35F63 /* AuthenticationViewController.swift */; };
+		F75739D627DF0A2D00D35F63 /* ArticleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739D527DF0A2D00D35F63 /* ArticleDetail.swift */; };
+		F75739D727DF0A2D00D35F63 /* ArticleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739D527DF0A2D00D35F63 /* ArticleDetail.swift */; };
+		F75739D827DF0A2D00D35F63 /* ArticleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739D527DF0A2D00D35F63 /* ArticleDetail.swift */; };
+		F75739DB27DF0AA800D35F63 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739DA27DF0AA800D35F63 /* Article.swift */; };
+		F75739DC27DF0AA800D35F63 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739DA27DF0AA800D35F63 /* Article.swift */; };
+		F75739DD27DF0AA800D35F63 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739DA27DF0AA800D35F63 /* Article.swift */; };
+		F75739DF27DF0F3C00D35F63 /* ArticleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739DE27DF0F3C00D35F63 /* ArticleList.swift */; };
+		F75739E027DF0F3C00D35F63 /* ArticleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739DE27DF0F3C00D35F63 /* ArticleList.swift */; };
+		F75739E127DF0F3C00D35F63 /* ArticleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739DE27DF0F3C00D35F63 /* ArticleList.swift */; };
+		F75739EC27DF1B5100D35F63 /* ArticleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739EB27DF1B5100D35F63 /* ArticleEntry.swift */; };
+		F75739ED27DF1B5100D35F63 /* ArticleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739EB27DF1B5100D35F63 /* ArticleEntry.swift */; };
+		F75739EE27DF1B5100D35F63 /* ArticleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739EB27DF1B5100D35F63 /* ArticleEntry.swift */; };
+		F75739F027DF24F000D35F63 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739EF27DF24F000D35F63 /* Blog.swift */; };
+		F75739F127DF24F000D35F63 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739EF27DF24F000D35F63 /* Blog.swift */; };
+		F75739F227DF24F000D35F63 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739EF27DF24F000D35F63 /* Blog.swift */; };
+		F7EC064027DFF7C600DF6495 /* ArticleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC063F27DFF7C600DF6495 /* ArticleMetadata.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F757399B27DEA81000D35F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F757398227DEA80F00D35F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F757398927DEA80F00D35F63;
+			remoteInfo = BareBonesBlog;
+		};
+		F75739A527DEA81000D35F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F757398227DEA80F00D35F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F757398927DEA80F00D35F63;
+			remoteInfo = BareBonesBlog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E86323FB27FC23520039411C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E89FD41227FC2BA6003BE247 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		F73167BC27E0600800BF3A7A /* BareBonesBlogArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareBonesBlogArticle.swift; sourceTree = "<group>"; };
+		F757398A27DEA80F00D35F63 /* BareBonesBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BareBonesBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F757398D27DEA80F00D35F63 /* BareBonesBlogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareBonesBlogApp.swift; sourceTree = "<group>"; };
+		F757398F27DEA80F00D35F63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F757399127DEA81000D35F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F757399427DEA81000D35F63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F757399A27DEA81000D35F63 /* BareBonesBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BareBonesBlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F757399E27DEA81000D35F63 /* BareBonesBlogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareBonesBlogTests.swift; sourceTree = "<group>"; };
+		F75739A427DEA81000D35F63 /* BareBonesBlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BareBonesBlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75739A827DEA81100D35F63 /* BareBonesBlogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareBonesBlogUITests.swift; sourceTree = "<group>"; };
+		F75739AA27DEA81100D35F63 /* BareBonesBlogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareBonesBlogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F75739C027DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareBonesBlogAppDelegate.swift; sourceTree = "<group>"; };
+		F75739C427DEB64D00D35F63 /* BareBonesBlogAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareBonesBlogAuth.swift; sourceTree = "<group>"; };
+		F75739D027DECAE800D35F63 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		F75739D527DF0A2D00D35F63 /* ArticleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetail.swift; sourceTree = "<group>"; };
+		F75739DA27DF0AA800D35F63 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		F75739DE27DF0F3C00D35F63 /* ArticleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleList.swift; sourceTree = "<group>"; };
+		F75739EB27DF1B5100D35F63 /* ArticleEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleEntry.swift; sourceTree = "<group>"; };
+		F75739EF27DF24F000D35F63 /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
+		F7EC063F27DFF7C600DF6495 /* ArticleMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleMetadata.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F757398727DEA80F00D35F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86323FA27FC22C70039411C /* FirebaseEmailAuthUI in Frameworks */,
+				E86323F327FC22740039411C /* FirebaseAuth in Frameworks */,
+				E86323F827FC22C70039411C /* FirebaseAuthUI in Frameworks */,
+				E86323F527FC22740039411C /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F757399727DEA81000D35F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75739A127DEA81000D35F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F757398127DEA80F00D35F63 = {
+			isa = PBXGroup;
+			children = (
+				F757398C27DEA80F00D35F63 /* BareBonesBlog */,
+				F757399D27DEA81000D35F63 /* BareBonesBlogTests */,
+				F75739A727DEA81100D35F63 /* BareBonesBlogUITests */,
+				F757398B27DEA80F00D35F63 /* Products */,
+				F75739CD27DEBF2400D35F63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F757398B27DEA80F00D35F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F757398A27DEA80F00D35F63 /* BareBonesBlog.app */,
+				F757399A27DEA81000D35F63 /* BareBonesBlogTests.xctest */,
+				F75739A427DEA81000D35F63 /* BareBonesBlogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F757398C27DEA80F00D35F63 /* BareBonesBlog */ = {
+			isa = PBXGroup;
+			children = (
+				E86323FB27FC23520039411C /* GoogleService-Info.plist */,
+				F75739EA27DF1ADA00D35F63 /* Service */,
+				F75739D927DF0A8900D35F63 /* Model */,
+				F75739D427DF09D200D35F63 /* View */,
+				F757398D27DEA80F00D35F63 /* BareBonesBlogApp.swift */,
+				F75739C027DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift */,
+				F757398F27DEA80F00D35F63 /* ContentView.swift */,
+				F757399127DEA81000D35F63 /* Assets.xcassets */,
+				F757399327DEA81000D35F63 /* Preview Content */,
+			);
+			path = BareBonesBlog;
+			sourceTree = "<group>";
+		};
+		F757399327DEA81000D35F63 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F757399427DEA81000D35F63 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F757399D27DEA81000D35F63 /* BareBonesBlogTests */ = {
+			isa = PBXGroup;
+			children = (
+				F757399E27DEA81000D35F63 /* BareBonesBlogTests.swift */,
+			);
+			path = BareBonesBlogTests;
+			sourceTree = "<group>";
+		};
+		F75739A727DEA81100D35F63 /* BareBonesBlogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F75739A827DEA81100D35F63 /* BareBonesBlogUITests.swift */,
+				F75739AA27DEA81100D35F63 /* BareBonesBlogUITestsLaunchTests.swift */,
+			);
+			path = BareBonesBlogUITests;
+			sourceTree = "<group>";
+		};
+		F75739CD27DEBF2400D35F63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F75739D427DF09D200D35F63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F75739DE27DF0F3C00D35F63 /* ArticleList.swift */,
+				F75739D527DF0A2D00D35F63 /* ArticleDetail.swift */,
+				F75739EB27DF1B5100D35F63 /* ArticleEntry.swift */,
+				F7EC063F27DFF7C600DF6495 /* ArticleMetadata.swift */,
+				F75739D027DECAE800D35F63 /* AuthenticationViewController.swift */,
+				F75739EF27DF24F000D35F63 /* Blog.swift */,
+				E89FD41227FC2BA6003BE247 /* WebView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F75739D927DF0A8900D35F63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F75739DA27DF0AA800D35F63 /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F75739EA27DF1ADA00D35F63 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F75739C427DEB64D00D35F63 /* BareBonesBlogAuth.swift */,
+				F73167BC27E0600800BF3A7A /* BareBonesBlogArticle.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F757398927DEA80F00D35F63 /* BareBonesBlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75739AE27DEA81100D35F63 /* Build configuration list for PBXNativeTarget "BareBonesBlog" */;
+			buildPhases = (
+				F757398627DEA80F00D35F63 /* Sources */,
+				F757398727DEA80F00D35F63 /* Frameworks */,
+				F757398827DEA80F00D35F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BareBonesBlog;
+			packageProductDependencies = (
+				E86323F227FC22740039411C /* FirebaseAuth */,
+				E86323F427FC22740039411C /* FirebaseFirestore */,
+				E86323F727FC22C70039411C /* FirebaseAuthUI */,
+				E86323F927FC22C70039411C /* FirebaseEmailAuthUI */,
+			);
+			productName = BareBonesBlog;
+			productReference = F757398A27DEA80F00D35F63 /* BareBonesBlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F757399927DEA81000D35F63 /* BareBonesBlogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75739B127DEA81100D35F63 /* Build configuration list for PBXNativeTarget "BareBonesBlogTests" */;
+			buildPhases = (
+				F757399627DEA81000D35F63 /* Sources */,
+				F757399727DEA81000D35F63 /* Frameworks */,
+				F757399827DEA81000D35F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F757399C27DEA81000D35F63 /* PBXTargetDependency */,
+			);
+			name = BareBonesBlogTests;
+			productName = BareBonesBlogTests;
+			productReference = F757399A27DEA81000D35F63 /* BareBonesBlogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F75739A327DEA81000D35F63 /* BareBonesBlogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75739B427DEA81100D35F63 /* Build configuration list for PBXNativeTarget "BareBonesBlogUITests" */;
+			buildPhases = (
+				F75739A027DEA81000D35F63 /* Sources */,
+				F75739A127DEA81000D35F63 /* Frameworks */,
+				F75739A227DEA81000D35F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75739A627DEA81000D35F63 /* PBXTargetDependency */,
+			);
+			name = BareBonesBlogUITests;
+			productName = BareBonesBlogUITests;
+			productReference = F75739A427DEA81000D35F63 /* BareBonesBlogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F757398227DEA80F00D35F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F757398927DEA80F00D35F63 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F757399927DEA81000D35F63 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F757398927DEA80F00D35F63;
+					};
+					F75739A327DEA81000D35F63 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F757398927DEA80F00D35F63;
+					};
+				};
+			};
+			buildConfigurationList = F757398527DEA80F00D35F63 /* Build configuration list for PBXProject "BareBonesBlog" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F757398127DEA80F00D35F63;
+			packageReferences = (
+				E86323F127FC22740039411C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				E86323F627FC22C70039411C /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */,
+			);
+			productRefGroup = F757398B27DEA80F00D35F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F757398927DEA80F00D35F63 /* BareBonesBlog */,
+				F757399927DEA81000D35F63 /* BareBonesBlogTests */,
+				F75739A327DEA81000D35F63 /* BareBonesBlogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F757398827DEA80F00D35F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F757399527DEA81000D35F63 /* Preview Assets.xcassets in Resources */,
+				F757399227DEA81000D35F63 /* Assets.xcassets in Resources */,
+				E86323FC27FC23520039411C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F757399827DEA81000D35F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75739A227DEA81000D35F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F757398627DEA80F00D35F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75739DB27DF0AA800D35F63 /* Article.swift in Sources */,
+				F75739C127DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift in Sources */,
+				E89FD41327FC2BA6003BE247 /* WebView.swift in Sources */,
+				F75739D627DF0A2D00D35F63 /* ArticleDetail.swift in Sources */,
+				F75739DF27DF0F3C00D35F63 /* ArticleList.swift in Sources */,
+				F75739C527DEB64D00D35F63 /* BareBonesBlogAuth.swift in Sources */,
+				F7EC064027DFF7C600DF6495 /* ArticleMetadata.swift in Sources */,
+				F73167BD27E0600800BF3A7A /* BareBonesBlogArticle.swift in Sources */,
+				F75739EC27DF1B5100D35F63 /* ArticleEntry.swift in Sources */,
+				F757399027DEA80F00D35F63 /* ContentView.swift in Sources */,
+				F75739F027DF24F000D35F63 /* Blog.swift in Sources */,
+				F757398E27DEA80F00D35F63 /* BareBonesBlogApp.swift in Sources */,
+				F75739D127DECAE800D35F63 /* AuthenticationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F757399627DEA81000D35F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75739C627DEB64D00D35F63 /* BareBonesBlogAuth.swift in Sources */,
+				F75739E027DF0F3C00D35F63 /* ArticleList.swift in Sources */,
+				F75739C227DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift in Sources */,
+				F75739ED27DF1B5100D35F63 /* ArticleEntry.swift in Sources */,
+				F75739DC27DF0AA800D35F63 /* Article.swift in Sources */,
+				F75739D727DF0A2D00D35F63 /* ArticleDetail.swift in Sources */,
+				F75739F127DF24F000D35F63 /* Blog.swift in Sources */,
+				F75739D227DECAE800D35F63 /* AuthenticationViewController.swift in Sources */,
+				F757399F27DEA81000D35F63 /* BareBonesBlogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75739A027DEA81000D35F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75739DD27DF0AA800D35F63 /* Article.swift in Sources */,
+				F75739C327DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift in Sources */,
+				F75739D827DF0A2D00D35F63 /* ArticleDetail.swift in Sources */,
+				F75739E127DF0F3C00D35F63 /* ArticleList.swift in Sources */,
+				F75739C727DEB64D00D35F63 /* BareBonesBlogAuth.swift in Sources */,
+				F75739EE27DF1B5100D35F63 /* ArticleEntry.swift in Sources */,
+				F75739AB27DEA81100D35F63 /* BareBonesBlogUITestsLaunchTests.swift in Sources */,
+				F75739F227DF24F000D35F63 /* Blog.swift in Sources */,
+				F75739A927DEA81100D35F63 /* BareBonesBlogUITests.swift in Sources */,
+				F75739D327DECAE800D35F63 /* AuthenticationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F757399C27DEA81000D35F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F757398927DEA80F00D35F63 /* BareBonesBlog */;
+			targetProxy = F757399B27DEA81000D35F63 /* PBXContainerItemProxy */;
+		};
+		F75739A627DEA81000D35F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F757398927DEA80F00D35F63 /* BareBonesBlog */;
+			targetProxy = F75739A527DEA81000D35F63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F75739AC27DEA81100D35F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F75739AD27DEA81100D35F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F75739AF27DEA81100D35F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BareBonesBlog/Preview Content\"";
+				DEVELOPMENT_TEAM = 3CWQTF6K7P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.lmu.BareBonesBlogCootauco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F75739B027DEA81100D35F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BareBonesBlog/Preview Content\"";
+				DEVELOPMENT_TEAM = 3CWQTF6K7P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.lmu.BareBonesBlogCootauco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F75739B227DEA81100D35F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CWQTF6K7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.lmu.BareBonesBlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BareBonesBlog.app/BareBonesBlog";
+			};
+			name = Debug;
+		};
+		F75739B327DEA81100D35F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CWQTF6K7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.lmu.BareBonesBlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BareBonesBlog.app/BareBonesBlog";
+			};
+			name = Release;
+		};
+		F75739B527DEA81100D35F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CWQTF6K7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.lmu.BareBonesBlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BareBonesBlog;
+			};
+			name = Debug;
+		};
+		F75739B627DEA81100D35F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CWQTF6K7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.lmu.BareBonesBlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BareBonesBlog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F757398527DEA80F00D35F63 /* Build configuration list for PBXProject "BareBonesBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75739AC27DEA81100D35F63 /* Debug */,
+				F75739AD27DEA81100D35F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75739AE27DEA81100D35F63 /* Build configuration list for PBXNativeTarget "BareBonesBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75739AF27DEA81100D35F63 /* Debug */,
+				F75739B027DEA81100D35F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75739B127DEA81100D35F63 /* Build configuration list for PBXNativeTarget "BareBonesBlogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75739B227DEA81100D35F63 /* Debug */,
+				F75739B327DEA81100D35F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75739B427DEA81100D35F63 /* Build configuration list for PBXNativeTarget "BareBonesBlogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75739B527DEA81100D35F63 /* Debug */,
+				F75739B627DEA81100D35F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E86323F127FC22740039411C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.10.0;
+			};
+		};
+		E86323F627FC22C70039411C /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/FirebaseUI-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E86323F227FC22740039411C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E86323F127FC22740039411C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E86323F427FC22740039411C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E86323F127FC22740039411C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E86323F727FC22C70039411C /* FirebaseAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E86323F627FC22C70039411C /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseAuthUI;
+		};
+		E86323F927FC22C70039411C /* FirebaseEmailAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E86323F627FC22C70039411C /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseEmailAuthUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F757398227DEA80F00D35F63 /* Project object */;
+}
