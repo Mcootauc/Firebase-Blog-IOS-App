@@ -5,7 +5,7 @@
 # Song Blog
 By Mitchell Cootauco
 
-Song Blog is an app where you can review or give thoughts about any song. Any user that can make an account can give their review and anyone can see it. The purpose of this app is to give people a place to give their ideas about a song and see what others think. 
+Song Blog is an IOS app where you can review or give thoughts about any song using Swift UI and Google Firebase. Any user that can make an account can give their review and anyone can see it. The purpose of this app is to give people a place to give their ideas about a song and see what others think. 
 
 Function 1:
 The first function is a support link with article with the title, "Top Songs". As the name suggests, it sends the user to the top 100 billboard website on safari. The purpose of this function is to remind the user what song they wanted to write about or to give reccomendations of the songs that are most popular at the time. The button only appears when the user has signed into their account. 
